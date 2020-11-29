@@ -11,7 +11,7 @@ void draw_line(const int& size, const char& c = '-') {
 	cout << endl;
 }
 
-// 2 func
+// 1
 
 int myrand(const int& min, const int& max) {
 	return min > 0 ?
@@ -54,8 +54,7 @@ int Sum(int* mass, const int size, int i)
 
 
 
-// 2 template
-
+// 2 
 template <typename T>
 T myrand_(const T& min, const T& max) {
 	return (T)(min > 0 ?
